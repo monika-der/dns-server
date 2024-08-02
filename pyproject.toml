@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dns-server"
+version = "0.1.0"
+description = ""
+authors = ["Monika Derewecka <monika.derewecka@schibsted.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
